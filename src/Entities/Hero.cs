@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace dio_project_net_poo_rpg.src.Entities
 {
-    public class Hero
+    public abstract class Hero
     {
         public Hero() { }
 
@@ -23,7 +23,7 @@ namespace dio_project_net_poo_rpg.src.Entities
 
         public override string ToString()
         {
-            return $"\nName: {Name}\nLevel: {Level}\nClass: {HeroType}";
+            return $"\nName: {Name}\nLevel: {Level}\nClass: {HeroType}\n";
         }
 
         public virtual string Attack()
