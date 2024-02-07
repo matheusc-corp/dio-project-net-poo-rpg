@@ -1,7 +1,7 @@
 # dio-project-net-poo-rpg
 Projeto para abstrair um jogo de RPG usando POO.
 
-![ ](\images\FFI_PSP_Main_Menu.png)
+![](https://github.com/matheusc-corp/dio-project-net-poo-rpg/blob/main/images/FFI_PSP_Main_Menu.png?raw=true)
 
 Desafio é complementar o projeto com as outras classes e representar os demais atributos, conforme imagem.
 
