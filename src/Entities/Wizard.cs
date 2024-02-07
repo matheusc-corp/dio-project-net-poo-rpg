@@ -16,7 +16,14 @@ namespace dio_project_net_poo_rpg.src.Entities
 
         public string Attack(int bonus)
         {
-            return $"{this.Name} lançou magia com bonus de ataque de {bonus}";
+            if (bonus > 6)
+            {
+                return $"{this.Name} lançou magia super efetiva com bonus de ataque de {bonus}";
+            }
+            else
+            {
+                return $"{this.Name} lançou magia com leve com bonus de ataque de {bonus}";
+            }
         }
 
     }
