@@ -3,21 +3,27 @@
 using System.Runtime.InteropServices;
 using dio_project_net_poo_rpg.src.Entities;
 
-Knight hero = new Knight();
-hero.Name = "Arus";
-hero.Level = 12;
-hero.HeroType = "Warrior";
+Knight hero = new Knight("Arus", 42, "Guerreiro");
 
-Wizard whiteWizard = new Wizard("Jenica", 15, "Mago branco");
+WhiteWizard whiteWizard = new WhiteWizard("Jenica", 42, "Mago de luz");
 
-Knight opponent = new Knight("Malevicus", 59, "Devil");
+BlackWizard blackWizard = new BlackWizard("Topapa", 42, "Mago de sombras");
 
+Ninja ninja = new Ninja("Wedge", 42, "Ninja");
 
-System.Console.WriteLine($"{hero}");
+Knight opponent = new Knight("Malevicus", 68, "Guerreiro demonio");
 
-System.Console.WriteLine(hero.Attack());
-
+System.Console.WriteLine("\n--------Hero Party--------");
+System.Console.WriteLine(hero);
 System.Console.WriteLine(whiteWizard);
-System.Console.WriteLine(whiteWizard.Attack());
-System.Console.WriteLine(whiteWizard.Attack(2));
+System.Console.WriteLine(blackWizard);
+System.Console.WriteLine(ninja);
+// System.Console.WriteLine(whiteWizard.Attack());
+// System.Console.WriteLine(whiteWizard.Attack(2));
+// System.Console.WriteLine(whiteWizard.Magic());
+
+System.Console.WriteLine("\n--------Enemy Party-------");
+System.Console.WriteLine($"{opponent}");
+
+// System.Console.WriteLine(opponent.Attack());
 
