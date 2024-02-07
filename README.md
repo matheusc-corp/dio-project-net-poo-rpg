@@ -1,5 +1,9 @@
 # dio-project-net-poo-rpg
-Projeto para abstrair um jogo de RPG usando POO
+Projeto para abstrair um jogo de RPG usando POO.
+
+![ ](\images\FFI_PSP_Main_Menu.png)
+
+Desafio é complementar o projeto com as outras classes e representar os demais atributos, conforme imagem.
 
 # Personagens
 Personagem 1
