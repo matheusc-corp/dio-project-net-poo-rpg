@@ -12,22 +12,22 @@ Classe: Guerreiro
 Personagem 2
 
 Nome: Wedge<br>
-Level: 20<br>
+Level: 18<br>
 Classe: Ninja
 
 
 Personagem 3
 
-Nome: Arus<br>
-Level: 42<br>
-Classe: Guerreiro
+Nome: Jenica<br>
+Level: 15<br>
+Classe: Mago branco
 
 
 Personagem 4
 
-Nome: Arus<br>
-Level: 42<br>
-Classe: Guerreiro
+Nome: Topapa<br>
+Level: 14<br>
+Classe: Mago negro
 
 
 
