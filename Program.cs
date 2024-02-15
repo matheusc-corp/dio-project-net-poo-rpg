@@ -27,3 +27,9 @@ System.Console.WriteLine($"{opponent}");
 
 // System.Console.WriteLine(opponent.Attack());
 
+System.Console.WriteLine("\n---------Battle-----------");
+System.Console.WriteLine(whiteWizard.Magic());
+System.Console.WriteLine(blackWizard.Magic());
+System.Console.WriteLine(hero.Attack());
+System.Console.WriteLine(ninja.Magic());
+System.Console.WriteLine(opponent.Attack());
